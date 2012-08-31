@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8E924915D5018500BF5183 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8E924815D5018500BF5183 /* UIKit.framework */; };
+		3B8E924B15D5018500BF5183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8E924A15D5018500BF5183 /* Foundation.framework */; };
+		3B8E924D15D5018500BF5183 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8E924C15D5018500BF5183 /* CoreGraphics.framework */; };
+		3B8E925315D5018500BF5183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E925115D5018500BF5183 /* InfoPlist.strings */; };
+		3B8E925515D5018500BF5183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E925415D5018500BF5183 /* main.m */; };
+		3B8E925915D5018500BF5183 /* BusMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E925815D5018500BF5183 /* BusMapAppDelegate.m */; };
+		3B8E925C15D5018500BF5183 /* BusMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E925B15D5018500BF5183 /* BusMapViewController.m */; };
+		3B8E925F15D5018500BF5183 /* BusMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E925D15D5018500BF5183 /* BusMapViewController.xib */; };
+		3B8E926615D5020200BF5183 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8E926515D5020200BF5183 /* MapKit.framework */; };
+		3B8E926815D5028800BF5183 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8E926715D5028800BF5183 /* CoreLocation.framework */; };
+		3B8E927015D50D8200BF5183 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E926F15D50D8200BF5183 /* BusStop.m */; };
+		3B99C8E115DC002600663AC3 /* pinDetailsViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B99C8DF15DC002600663AC3 /* pinDetailsViewControllerViewController.m */; };
+		3B99C8E215DC002600663AC3 /* pinDetailsViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B99C8E015DC002600663AC3 /* pinDetailsViewControllerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B8E924415D5018500BF5183 /* BusMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8E924815D5018500BF5183 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B8E924A15D5018500BF5183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B8E924C15D5018500BF5183 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B8E925015D5018500BF5183 /* BusMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BusMap-Info.plist"; sourceTree = "<group>"; };
+		3B8E925215D5018500BF5183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B8E925415D5018500BF5183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B8E925615D5018500BF5183 /* BusMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BusMap-Prefix.pch"; sourceTree = "<group>"; };
+		3B8E925715D5018500BF5183 /* BusMapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusMapAppDelegate.h; sourceTree = "<group>"; };
+		3B8E925815D5018500BF5183 /* BusMapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusMapAppDelegate.m; sourceTree = "<group>"; };
+		3B8E925A15D5018500BF5183 /* BusMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusMapViewController.h; sourceTree = "<group>"; };
+		3B8E925B15D5018500BF5183 /* BusMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusMapViewController.m; sourceTree = "<group>"; };
+		3B8E925E15D5018500BF5183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BusMapViewController.xib; sourceTree = "<group>"; };
+		3B8E926515D5020200BF5183 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3B8E926715D5028800BF5183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3B8E926E15D50D8200BF5183 /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		3B8E926F15D50D8200BF5183 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		3B99C8DE15DC002600663AC3 /* pinDetailsViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinDetailsViewControllerViewController.h; sourceTree = "<group>"; };
+		3B99C8DF15DC002600663AC3 /* pinDetailsViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinDetailsViewControllerViewController.m; sourceTree = "<group>"; };
+		3B99C8E015DC002600663AC3 /* pinDetailsViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pinDetailsViewControllerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8E924115D5018500BF5183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8E926815D5028800BF5183 /* CoreLocation.framework in Frameworks */,
+				3B8E926615D5020200BF5183 /* MapKit.framework in Frameworks */,
+				3B8E924915D5018500BF5183 /* UIKit.framework in Frameworks */,
+				3B8E924B15D5018500BF5183 /* Foundation.framework in Frameworks */,
+				3B8E924D15D5018500BF5183 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8E923915D5018500BF5183 = {
+			isa = PBXGroup;
+			children = (
+				3B8E924E15D5018500BF5183 /* BusMap */,
+				3B8E924715D5018500BF5183 /* Frameworks */,
+				3B8E924515D5018500BF5183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8E924515D5018500BF5183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E924415D5018500BF5183 /* BusMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8E924715D5018500BF5183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E926715D5028800BF5183 /* CoreLocation.framework */,
+				3B8E926515D5020200BF5183 /* MapKit.framework */,
+				3B8E924815D5018500BF5183 /* UIKit.framework */,
+				3B8E924A15D5018500BF5183 /* Foundation.framework */,
+				3B8E924C15D5018500BF5183 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B8E924E15D5018500BF5183 /* BusMap */ = {
+			isa = PBXGroup;
+			children = (
+				3B99C8DE15DC002600663AC3 /* pinDetailsViewControllerViewController.h */,
+				3B99C8DF15DC002600663AC3 /* pinDetailsViewControllerViewController.m */,
+				3B99C8E015DC002600663AC3 /* pinDetailsViewControllerViewController.xib */,
+				3B8E925715D5018500BF5183 /* BusMapAppDelegate.h */,
+				3B8E925815D5018500BF5183 /* BusMapAppDelegate.m */,
+				3B8E925A15D5018500BF5183 /* BusMapViewController.h */,
+				3B8E925B15D5018500BF5183 /* BusMapViewController.m */,
+				3B8E925D15D5018500BF5183 /* BusMapViewController.xib */,
+				3B8E924F15D5018500BF5183 /* Supporting Files */,
+				3B8E926E15D50D8200BF5183 /* BusStop.h */,
+				3B8E926F15D50D8200BF5183 /* BusStop.m */,
+			);
+			path = BusMap;
+			sourceTree = "<group>";
+		};
+		3B8E924F15D5018500BF5183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E925015D5018500BF5183 /* BusMap-Info.plist */,
+				3B8E925115D5018500BF5183 /* InfoPlist.strings */,
+				3B8E925415D5018500BF5183 /* main.m */,
+				3B8E925615D5018500BF5183 /* BusMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8E924315D5018500BF5183 /* BusMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8E926215D5018500BF5183 /* Build configuration list for PBXNativeTarget "BusMap" */;
+			buildPhases = (
+				3B8E924015D5018500BF5183 /* Sources */,
+				3B8E924115D5018500BF5183 /* Frameworks */,
+				3B8E924215D5018500BF5183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusMap;
+			productName = BusMap;
+			productReference = 3B8E924415D5018500BF5183 /* BusMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8E923B15D5018500BF5183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BusMap;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3B8E923E15D5018500BF5183 /* Build configuration list for PBXProject "BusMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B8E923915D5018500BF5183;
+			productRefGroup = 3B8E924515D5018500BF5183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8E924315D5018500BF5183 /* BusMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8E924215D5018500BF5183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8E925315D5018500BF5183 /* InfoPlist.strings in Resources */,
+				3B8E925F15D5018500BF5183 /* BusMapViewController.xib in Resources */,
+				3B99C8E215DC002600663AC3 /* pinDetailsViewControllerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8E924015D5018500BF5183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8E925515D5018500BF5183 /* main.m in Sources */,
+				3B8E925915D5018500BF5183 /* BusMapAppDelegate.m in Sources */,
+				3B8E925C15D5018500BF5183 /* BusMapViewController.m in Sources */,
+				3B8E927015D50D8200BF5183 /* BusStop.m in Sources */,
+				3B99C8E115DC002600663AC3 /* pinDetailsViewControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B8E925115D5018500BF5183 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8E925215D5018500BF5183 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B8E925D15D5018500BF5183 /* BusMapViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8E925E15D5018500BF5183 /* en */,
+			);
+			name = BusMapViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B8E926015D5018500BF5183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B8E926115D5018500BF5183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8E926315D5018500BF5183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusMap/BusMap-Prefix.pch";
+				INFOPLIST_FILE = "BusMap/BusMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B8E926415D5018500BF5183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusMap/BusMap-Prefix.pch";
+				INFOPLIST_FILE = "BusMap/BusMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8E923E15D5018500BF5183 /* Build configuration list for PBXProject "BusMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8E926015D5018500BF5183 /* Debug */,
+				3B8E926115D5018500BF5183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8E926215D5018500BF5183 /* Build configuration list for PBXNativeTarget "BusMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8E926315D5018500BF5183 /* Debug */,
+				3B8E926415D5018500BF5183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B8E923B15D5018500BF5183 /* Project object */;
+}
